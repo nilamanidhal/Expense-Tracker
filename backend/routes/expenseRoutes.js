@@ -1,6 +1,6 @@
 const express=require('express');
 const router=express.Router();
-const Expense=require('../model/Expense');
+const Expense=require('../model/expense');
 
 router.get('/', async (req,res)=>{
     try {
